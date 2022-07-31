@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(photos/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9F9D95;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    margin-left: 10%;
+}
+
+/* .list {
+    margin-right: 40px;
+} */
+
+nav div:nth-child(2) {
+    margin-left: auto;
+}
+
+nav div ul li {
+    display: inline-block;
+    align-items: center;
+    margin: 0 35px;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.call {
+    margin-top: 20px;
+}
+
+.straightLine {
+    margin-left: auto;
+    margin-right: 33px;
+    width: 55vw;
+    height: 2px;
+    background-color: #7c4e4e;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    color: #194562;
+    font-size: 5rem;
+    margin: 7% 0;
+}
+
+.right-side button {
+    margin: 8% 0;
+    display: block;
+    background: transparent;
+    color: #194562;
+    border: 1px solid #194562;
+    padding: 15px 50px;
+    border-radius: 100px;
+}
+
+.idea-1 {
+    display: flex;
+    position: absolute;
+    right: 320px;
+    bottom: 50px;
+}
+
+.idea-content-1 {
+    background-color: #7c4e4e60;
+    position: relative;
+    width: 190px;
+    height: 60px;
+    bottom: 77px;
+    align-items: center;
+    color: #ffffff;
+    padding: 35px;
+    font-size: 1.2rem;
+}
+
+.line-1 {
+    width: 60px;
+    height: 2px;
+    background-color: #7c4e4e60;
+}
+
+.circle-1 {
+    width: 20px;
+    height: 20px;
+    background-color: #7c4e4e60;
+    border-radius: 50%;
+    position: relative;
+    bottom: 9px;
+}
+
+.idea-content-2 {
+    background-color: #7c4e4e60;
+    position: relative;
+    width: 212px;
+    height: 60px;
+    bottom: 77px;
+    align-items: center;
+    color: #ffffff;
+    padding: 35px;
+    font-size: 1.2rem;
+}
+
+.line-2 {
+    width: 2px;
+    height: 60px;
+    background-color: #7c4e4e60;
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+}
+
+.circle-2 {
+    width: 20px;
+    height: 20px;
+    background-color: #7c4e4e60;
+    border-radius: 50%;
+    position: relative;
+    bottom: 9px;
+}
+
+.symbol {
+    position: relative;
+    bottom: 69px;
+    left: 150px;
+}
+
+.idea-2{
+    position: absolute;
+    right: 150px;
+    top: 290px;
+}
